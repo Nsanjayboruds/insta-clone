@@ -1,0 +1,508 @@
+@import url('https://fonts.googleapis.com/css2?family=Style+Script&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+
+.navbar{
+    height: 56px;
+    width: 100%;
+    background-color: white;
+    border-bottom: 2px solid #0000001f;
+   overflow: hidden;
+   position: fixed;
+   top: 0;
+    
+}
+
+
+
+.navbar img{
+    height: 81%;
+    width: 20%;
+    margin-left: 200px;
+    font-size: 20px;
+    margin-top: 2px;
+    
+    
+}
+.lo{
+    display: flex;
+    align-items: center;
+      margin-left: -405px;
+      gap: 2rem;
+      color: rgb(15, 182, 220);
+      margin-top: -12px;
+}
+
+.btn{
+    margin-left: 1435px;
+    margin-top: -20px;
+    color: white;
+    background-color: rgb(34, 150, 222);
+    height: 30px;
+    border-radius: 10px;
+    width: 79px;
+    border: 2px solid rgb(17, 140, 255);
+    cursor: pointer;
+}
+
+h5{
+
+
+    margin-top: -20px;
+    font-size: 15px;
+    cursor: pointer;
+}
+.main{
+    height: 700px;
+    margin-top: 5px;
+    width: 100%;
+   /* background-color: red;*/
+}
+.iii{
+    height: 182px;
+    margin-left: 206px;
+    width: 70%;
+   /* background-color: blue;*/
+   border-bottom: 2px solid #0000001f;
+   margin-top: 56px;
+  
+}
+
+
+
+.iii img{
+    height: 74%;
+    background: linear-gradient( rgb(255, 15, 255),red, yellow,orange);
+    
+    padding: 5px;
+       
+    margin-left: 97px;
+    margin-top: 20px;
+    border-radius: 64px;
+    
+}
+
+.iii img::before{
+    content: "";
+    position: absolute;
+    height: 500px;
+    width: 350px;
+    background:red ;
+}                
+.tec{
+    height: 128px;
+  width: 531px;
+  /*background-color: yellow;*/
+  margin-left: 590px;
+  margin-top: -174px;
+  margin-bottom: 20px;
+}
+
+.tec >h2{
+    margin-left: 20px;
+    margin-bottom: -11px;
+    font-weight: 90;
+    margin-top: 20px;
+    
+
+}
+.tik{
+    margin-top: -26px;
+}
+.tik img{
+    height: 29px;
+  margin-left: 147px;
+  margin-top: -15px;
+  
+    
+}
+.f{
+    display:inline-block;
+    align-items: center;
+    justify-content: center;
+    gap: 7rem;
+}
+.follow{
+    height: 30px;
+    width: 79px;
+    margin-top: -20px;
+    gap: 2rem;
+    color: white;
+    background-color: rgb(34, 150, 222);
+      margin-bottom: -20px;
+      margin-left: 60px;
+      border-radius: 10px;
+      width: 79px;
+      border: 2px solid rgb(17, 140, 255);
+      cursor: pointer;
+}
+.mes{
+    height: 30px;
+    width: 79px;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+.ee{
+    margin-top: 20px;
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+p{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.tt{
+    height: 51px;
+  width: 100%;
+  /*background-color: red;*/
+  margin-top: 33px;
+  display: flex;
+   text-align: center;
+   align-items: center;
+   justify-content: center;
+  gap: 2rem;
+  
+
+  
+}
+
+
+.tt>img{
+    height: 18px;
+    width: 19px;
+    margin-top: 10px;
+}
+.tt >p{
+    margin-left: -31px;
+    font-size: 10px;
+    font-weight: 200;
+}
+.msss{
+    height: 235%;
+    width: 78%;
+    margin-left: 200px;
+   /* background-color: red;*/
+   
+}
+
+
+.msss>img{
+    height: 396px;
+    width: 382px;
+    margin-top: -2px;
+    margin-left: -2px;
+    margin-right: -4px;
+    object-fit: cover;
+    object-position: top;
+    background-size: cover;
+    
+}
+
+
+.baki{
+    margin-top: -88px;
+}
+.eeee{
+    margin-left: 457px;
+    margin-top: 20px;
+    color: white;
+    background-color: rgb(34, 150, 222);
+    height: 32px;
+    border-radius: 23px;
+    font-size: 20px;
+    width: 192px;
+    border: 2px solid rgb(17, 140, 255);
+}
+.ss>p{
+    height: 42px;
+    width: 14vw;
+    margin-left: 600px;
+    color: white;
+    background-color: rgb(36, 160, 237);
+    border-radius: 20px;
+    text-decoration: solid;
+     padding-left: 10px;  
+       
+}
+
+.rom p{
+
+        margin-top: 48px;
+        margin-left: 155px;
+        color: #0000004f;
+}
+footer{
+    height: 68px;
+    width: 100%;
+    
+}
+.assa{
+    margin-top: 85px;
+  margin-left: 117px;
+  font-size: 27px;
+}
+.pila>i{
+    margin-left: 20px;
+}
+
+#scroll{
+    height: 27vh;
+    width: 51%;
+    background-color: rgb(254, 254, 254);
+    padding: 1vw;
+    margin-top: 80px;
+    margin-left: 345px;
+    white-space: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+    
+}
+.container{
+    height: 6%;
+    width: 103%;
+    display: inline-block;
+    
+    
+}
+
+.recent{
+    border: 2px solid rgba(0, 0, 0, 0.068);
+    height: 179px;
+    margin-top: -12px;
+    margin-bottom: 20px;
+    display: inline-block;
+    width: 24%;
+    background-color: white;
+    
+}
+
+
+.last>i{
+    margin-left: 167px;
+    background: #00000029;
+    cursor: pointer;
+    
+}
+.recent img{
+    height: 72px;
+  width: 74px;
+  border-radius: 60%;
+  margin-left: 41px;
+  margin-top: 9px;
+  object-fit: cover;
+  object-position: top;
+}
+.recent h6{
+    margin-left: 53px;
+    margin-top: 9px;
+    font-size: 10px;
+}
+
+.meme{
+    margin-left: 43px;
+    border: 2px solid transparent;
+    font-size: 10px;
+    height: 30px;
+    width: 79px;
+    cursor: pointer;
+    border-radius: 18px;
+    margin-top: 10px;
+}
+
+.ab{
+  margin-left: 41px;
+
+}
+.please{
+    height: 20px;
+    width: 70px;
+    margin-top: -20px;
+    gap: 2rem;
+    margin-left: 60px;
+      margin-bottom: -20px;
+      margin-left: 50px;
+      border-radius: 5px;
+      border: 2px solid transparent;
+
+}
+/*#sc img{
+   display: none;
+   height: 186px;
+    
+   width: 18%;
+   margin: 1%;
+   object-fit: cover;
+  
+   
+}*/
+.foot{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    margin-left: 200px;
+    gap: 40px;
+    margin-top: 43px;
+    font-size: 16px;
+    font-weight: 100;
+    color: #00000050;
+}
+
+
+@media  screen and (max-width:600px) {  
+    .navbar {
+        height: auto;
+        padding: 10px;
+    }
+
+    .navbar img {
+        height: auto;
+        width: 50%;
+        margin-left: 10px;
+        margin-top: 0;
+    }
+
+    .lo {
+        margin-left: 0;
+        gap: 1rem;
+        margin-top: 0;
+    }
+
+    .btn {
+        margin-left: 0;
+        margin-top: 10px;
+        width: auto;
+        padding: 5px 10px;
+    }
+
+    .iii {
+        margin-left: 10px;
+        width: 90%;
+        margin-top: 70px;
+    }
+
+    .iii img {
+        height: auto;
+        width: 50%;
+        margin-left: 0;
+        margin-top: 10px;
+    }
+
+    .tec {
+        width: 100%;
+        margin-left: 0;
+        margin-top: 10px;
+    }
+
+    .tec > h2 {
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+
+    .tik img {
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+
+    .follow, .mes {
+        width: auto;
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+
+    .ee {
+        flex-direction: column;
+        align-items: flex-start;
+        margin-left: 10px;
+    }
+
+    .tt {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .msss {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .msss > img {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .eeee {
+        margin-left: 10px;
+        width: auto;
+        padding: 5px 10px;
+    }
+
+    .ss > p {
+        width: auto;
+        margin-left: 10px;
+        padding: 5px 10px;
+    }
+
+    .rom p {
+        margin-left: 10px;
+    }
+
+    .assa {
+        margin-left: 10px;
+        font-size: 20px;
+    }
+
+    #scroll {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .recent {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .recent img {
+        margin-left: 10px;
+    }
+
+    .recent h6 {
+        margin-left: 10px;
+    }
+
+    .meme {
+        margin-left: 10px;
+    }
+
+    .ab {
+        margin-left: 10px;
+    }
+
+    .please {
+        margin-left: 10px;
+    }
+
+    .foot {
+        flex-direction: column;
+        margin-left: 0;
+        gap: 10px;
+        text-align: center;
+    }
+}
+
+
+
